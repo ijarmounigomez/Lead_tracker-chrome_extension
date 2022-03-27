@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
+
+:root {
+    --main-green: rgb(67, 178, 97);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    padding: 1em;
+    min-width: 38.3em;
+}
+
+#input-el {
+    min-width: 100%;
+    padding: 10px;
+    border: 2px solid var(--main-green);
+}
+/* SAVE BUTTON */
+button {
+    margin-top: .2em;
+    padding: 10px 20px;
+    background-color: var(--main-green);
+    border: 1px solid var(--main-green);
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+/* DELETE BUTTON */
+#delete-btn {
+    background-color: #fff;
+    color: var(--main-green);
+}
+
+#ul-el {
+    font-size: 1.3em;
+    list-style: none;
+    margin-top: 1em;
+}
+
+#ul-el li a {
+    color: var(--main-green);
+    line-height: 1.7em;
+}
